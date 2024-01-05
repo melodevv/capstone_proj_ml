@@ -242,12 +242,11 @@ for doc in documents:
     for w in words:
         bag_of_words.append(1) if w in pattern_words else bag_of_words.append(0)
 
-        # in output array 0 value for each tag ang 1 value for matched tag.[row *
-        # colm(8)]
-        output_row = list(output_empty)
-        output_row[classes.index(doc[1])] = 1
-
-        training.append([bag_of_words, output_row])
+    # in output array 0 value for each tag ang 1 value for matched tag.[row *
+    # colm(8)]
+    output_row = list(output_empty)
+    output_row[classes.index(doc[1])] = 1
+    training.append([bag_of_words, output_row])
 
 random.shuffle(training)
 training = np.array(training, dtype=list)
