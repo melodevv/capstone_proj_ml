@@ -1,25 +1,17 @@
 # ChatBot
+This is a mental health assistant chatbot. The IxiasBot folder contains all the backend code to making the chatbot model.
 
-## Installation & Setup
-
-[Install Python] https://www.dataquest.io/blog/installing-python-on-mac/
-
-[Install pip] https://phoenixnap.com/kb/install-pip-mac
-
-If you have Python & pip installed then check their version in the terminal or command line tools
-
-```
-python3 --version
-```
-
-```
-pip --version
-```
-
-## Installing Flask
+## Installing Packages
 
 In your terminal run the requirements.txt file using this pip
 
 ```
 pip install -r requirements.txt
+```
+
+## Run Chatbot
+To run the chatbot you have to run the app.py file
+
+```
+python3 app.py
 ```

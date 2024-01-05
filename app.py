@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, json
-from IxiasAI.ixiasai import chatbot_response
+from IxiasBot.ixiasai import chatbot_response
 
 app = Flask(__name__)
 
